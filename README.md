@@ -1,24 +1,20 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Alpha Blog
 
-Things you may want to cover:
+Alpha Blog is a place for users to come and create, edit, update, delete articles and also have the ability to follow other followers that have atricles they are intrested in following.
 
-* Ruby version
+# Installation
+To use this app, clone the [repo](https://github.com/jburger69/alpha-blog-6), then execute:
+`$ bundle install`
 
-* System dependencies
+# Usage
+1. Run rake `db:migrate`
+2. Run `rails s`
+3. Launch [http://localhost:3000](http://localhost:3000) in your browser
 
-* Configuration
+# Contributing
+Bug reports and pull requests are welcome at [https://github.com/jburger69/alpha-blog-6](https://github.com/jburger69/alpha-blog-6). Contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/).
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# License
+Distributed under the [MIT License](https://opensource.org/licenses/MIT)
