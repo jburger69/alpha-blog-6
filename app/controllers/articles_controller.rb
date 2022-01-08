@@ -17,9 +17,10 @@ class ArticlesController < ApplicationController
         # byebug
         if @article.valid?
             @article.save
+            flash[:notice] = "Article was created successfully."
             redirect_to @article
         else
-            redirect_to new_article_path
+            render :new
         end
     end
 
