@@ -12,6 +12,10 @@ class ArticlesController < ApplicationController
         @article = Article.new
     end
 
+    def edit
+
+    end
+
     def create
         @article = Article.new(article_params)
         # byebug
@@ -22,6 +26,10 @@ class ArticlesController < ApplicationController
         else
             render :new
         end
+    end
+
+    def update
+        
     end
 
 
